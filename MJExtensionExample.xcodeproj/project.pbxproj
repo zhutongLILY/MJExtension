@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11CF36AD1CE89F6A002D7454 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CF36AC1CE89F6A002D7454 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		2D8FC6B81BEF7E89004471E9 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FC6B71BEF7E89004471E9 /* MJExtensionConfig.m */; settings = {ASSET_TAGS = (); }; };
 		2DE3CD971BEF7B3800DA0F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CD961BEF7B3800DA0F2E /* main.m */; };
 		2DE3CD9A1BEF7B3800DA0F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3CD991BEF7B3800DA0F2E /* AppDelegate.m */; };
@@ -56,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11CF36AB1CE89F6A002D7454 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		11CF36AC1CE89F6A002D7454 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2D8FC6B61BEF7E89004471E9 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		2D8FC6B71BEF7E89004471E9 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		2DE3CD921BEF7B3800DA0F2E /* MJExtensionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJExtensionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +240,8 @@
 				2DE3CDDD1BEF7B9F00DA0F2E /* NSObject+MJProperty.m */,
 				2DE3CDDE1BEF7B9F00DA0F2E /* NSString+MJExtension.h */,
 				2DE3CDDF1BEF7B9F00DA0F2E /* NSString+MJExtension.m */,
+				11CF36AB1CE89F6A002D7454 /* Person.h */,
+				11CF36AC1CE89F6A002D7454 /* Person.m */,
 			);
 			path = MJExtension;
 			sourceTree = SOURCE_ROOT;
@@ -434,6 +439,7 @@
 				2DE3CDE81BEF7B9F00DA0F2E /* NSObject+MJKeyValue.m in Sources */,
 				2DE3CDE31BEF7B9F00DA0F2E /* MJProperty.m in Sources */,
 				2DE3CE011BEF7BE100DA0F2E /* MJAd.m in Sources */,
+				11CF36AD1CE89F6A002D7454 /* Person.m in Sources */,
 				2DE3CD9A1BEF7B3800DA0F2E /* AppDelegate.m in Sources */,
 				2DE3CE041BEF7BE100DA0F2E /* MJBook.m in Sources */,
 				2DE3CDE71BEF7B9F00DA0F2E /* NSObject+MJCoding.m in Sources */,
